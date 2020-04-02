@@ -1,0 +1,254 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: #222627;
+}
+
+
+button{
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-main
+{
+  padding-bottom:20px;
+
+    padding-bottom:5px;
+    display:flex;
+    justify-content: space-around;
+
+}
+.img{
+    height:100px;
+    border-radius: 100%;
+    opacity: 1;
+}
+.logins {
+    list-style: none;
+    padding: 10px;
+}
+.btn{
+    width:100px;
+    height:40px;
+    background-image: linear-gradient(#000428 , #004e92);
+    width:100px;
+    outline: brown;
+    font-size: 14px;
+    border-radius: 10%;
+    cursor: pointer;
+    border: none;
+
+}
+.heading{
+    color:coral;
+    padding-top: 30px;
+    font-family:Playfair Display ;
+}
+.dropbtn {
+  padding: 10px 50px 10px 50px ;
+  background-color: #db4437;
+  color:whitesmoke;
+  border:none ;
+  font-size: 30px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(99, 55, 55, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(212, 140, 140);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:#db4437;}
+
+  .mains{
+      display:flex;
+      justify-content: space-around;
+      font-style: oblique;
+      padding-top: 1px;
+      background-color: #db4437;
+      padding-bottom: 25px;
+      padding-top: 17px;
+  }
+
+     .main-contentss{
+      background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+      background-blend-mode: multiply,multiply;
+      display: flex; 
+     font-size: 18px;
+      border-right: 1px white solid;
+      color:whitesmoke;
+      box-shadow: 0 0 20px white;
+    }
+
+
+    .main-contentss0{
+      font-size: 26px;
+      text-align: center;
+      color:whitesmoke;
+      padding-top:40px;
+    }
+
+    .main-contentss0 img{
+      padding-top:25px;
+      margin-bottom: 20px;
+    }
+     .contw{
+       padding-top:20px;
+     }
+
+     .cont img{
+        width: 60%;
+        height:60%;
+        margin-top: 30px;
+        padding-left:200px;
+  
+     }
+
+    footer{
+      padding: 7% 15%;
+      text-align: center;
+      color:whitesmoke;
+    }
+    .fab{
+      cursor: pointer;
+      color:white;
+      background-color: #fff;
+    }
+     
+
+
+
+
+
+   .trending-heading{
+     display: flex;
+     justify-content: space-evenly;
+     background-color: #4e4e50;
+   }
+
+      .trending-heading button{
+        width:300px;
+        background-color: #4e4e50;
+        border:none;
+        font-size: 30px;
+        cursor: pointer;
+        color:white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 500px;
+      }
+
+      .trending-heading button:hover {
+        background-color: rgb(44, 44, 44);
+      }
+    .trend-heading{
+      color:#659dbd;
+      padding-top:30px;
+      padding-bottom:30px;
+    font-size: 50px;
+    background-color: #4e4e50;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .trend-heading2{
+      color:#950740;
+      padding-top:20px;
+      font-size: 40px;
+      padding-bottom: 10px;
+   }
+
+   .trending-main1{
+     display: flex;
+    color:whitesmoke;
+    font-size: 28px;
+    padding-top: 30px;
+   }
+   .trend-main2{
+     display: flex;
+     padding-bottom: 20px;
+     padding-top:40px;
+     color: snow;
+     font-size: 20px;
+     
+     border-right: 1px solid white;
+   }
+   .trend-main2 img{
+     width: 65%;
+     height: 65%;
+     padding-top: 10px;
+     margin-left: 60px;
+   }
+
+
+
+
+
+
+
+   .trending-punjab{
+    color:#950740;
+    padding:20px 0px 30px 40px;
+   }
+
+   .trend-in-punjab{
+     color:snow;
+     font-size: 23px;
+     padding-bottom: 30px;
+   }
+   .trend-in-punjab img{
+     padding-top:30px;
+     padding-left:500px;
+     width:50%;
+     height:50%;
+   }
+
+   .flex-punjabs{
+    display: flex;
+  
+    color:white;
+   }
+
+   
+    .t2 {
+      padding-right:50px;
+      color:#659dbd;
+      border: 10px solid #950740 ;
+      border-left: 5px;
+
+    
+    }
+.t1{
+  border: 10px solid #950740 ;
+  padding-right:500px;
+  border-bottom: 0px;
+  border-top:0px;
+  border-left:0px;
+  font-size:20px;
+
+padding-left:100px;
+  
+}
+
+.t1 h1{
+      padding-bottom:20px;
+      color:#659dbd;
+      text-align: left;
+  }
